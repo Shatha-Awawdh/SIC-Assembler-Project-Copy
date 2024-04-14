@@ -1,0 +1,15 @@
+COPY       START     1000               START OF THE PROGRAM, LOADED INTO MEMORY ADDRESS 1000
+FIRST      LDX       ZERO               INITIALIZE INDEX REGISmR TO O
+MOVECH     LDCH      STR1,X             LOAD CHARACrER FROM STR1 INTO REG A
+-          STCH      STR2,X             STORE CHARACTER INTO STR2
+-          TIX       ELEVEN             ADD 1 TO INDEX, COMPARE REStJLT TO 11
+-          JLT       MOVECH             LOOP IF INDEX IS LESS THAN 11
+.
+.
+.
+STR1       BYTE      C 'TEST STRING'    11-BYTE STRING CONSTANT
+STR2       RESB      11                 11-BYTE VARIABLE
+. 
+ZERO       WORD      0
+ELEVEN     WORD      11
+-          END       FIRST

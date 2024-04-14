@@ -1,0 +1,2 @@
+Undefined symbol: S at line 2
+Incomplete line at line 4

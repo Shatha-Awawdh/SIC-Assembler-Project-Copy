@@ -1,0 +1,4 @@
+Program Name: COPY
+Program Length: 0X20
+Location Counter: 0X1020
+Start Address: 0X1000
